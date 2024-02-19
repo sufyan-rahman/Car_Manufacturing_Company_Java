@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18">
+   <children>
+      <Label layoutX="73.0" layoutY="55.0" text="Enter Car Condition" />
+      <TextArea fx:id="typetextforcheckingpolicy" layoutX="63.0" layoutY="82.0" prefHeight="200.0" prefWidth="478.0" />
+      <Button layoutX="460.0" layoutY="300.0" mnemonicParsing="false" onAction="#cholegelo" text="Send" />
+   </children>
+</AnchorPane>

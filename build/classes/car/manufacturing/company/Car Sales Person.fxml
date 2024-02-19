@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="car.manufacturing.company.CarSalesPersonController">
+   <children>
+      <Button layoutX="73.0" layoutY="119.0" mnemonicParsing="false" onAction="#caravailability" prefHeight="142.0" prefWidth="100.0" text="Car Availabiity" />
+      <Button layoutX="236.0" layoutY="122.0" mnemonicParsing="false" onAction="#initiatepaymentprocess" prefHeight="135.0" prefWidth="152.0" text="Initiate payment process" />
+      <Button layoutX="455.0" layoutY="119.0" mnemonicParsing="false" onAction="#promotesales" prefHeight="142.0" prefWidth="100.0" text="promote sales ?" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="labelforenteringcarname" layoutX="77.0" layoutY="82.0" text="Enter Car Name" />
+      <TextField fx:id="typeboxforsearchingcar" layoutX="173.0" layoutY="78.0" />
+      <Button layoutX="356.0" layoutY="78.0" mnemonicParsing="false" onAction="#load" text="Search" />
+      <TextArea fx:id="resultboxforcaravailability" layoutX="106.0" layoutY="132.0" prefHeight="54.0" prefWidth="169.0" />
+      <Label layoutX="309.0" layoutY="151.0" text="is available" />
+   </children>
+</AnchorPane>
